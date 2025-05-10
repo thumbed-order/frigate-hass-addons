@@ -4,7 +4,7 @@ server {
     include /etc/nginx/includes/server_params.conf;
 
     location / {
-        allow   all; # was incorrectly setup as 172.30.32.2
+        allow   172.30.32.2; # was incorrectly setup as 172.30.32.2
         deny    all;
 
         proxy_pass {{ .server }};
