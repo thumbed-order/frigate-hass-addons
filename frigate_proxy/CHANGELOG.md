@@ -1,3 +1,8 @@
+### 1.5.1
+
+- Fixed nginx ingress template to stop access errors due to misconfiguration
+
+
 ### 1.5
 
 - Add `proxy_pass_real_ip` option
